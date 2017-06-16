@@ -1,0 +1,25 @@
+.wrapper {
+	position: absolute;
+	display: inline-block;
+}
+
+.wrapper * {
+	pointer-events: none;
+}
+
+.card {
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+	background-color: #F29100; 
+}
+
+.card>.inner {
+	color: #fff;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.isPressed {
+  cursor: grabbing;
+}

@@ -1,0 +1,13 @@
+.deck {
+	width: 300px;
+	height: 300px;
+	overflow: visible;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.deck>.inner {
+	margin: 0 auto;
+	display: inline-block;
+}
